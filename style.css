@@ -34,6 +34,35 @@ body{
    20% 0% 100% 100%;
 }
 
-.impostor .glass-bowl{
-   
+.impostor .glass-bowl {
+   position: absolute;
+   width: 220px;
+   height: 135px;
+   background-color: #ff005eb0;
+   top: 69px;
+   right: -20px;
+   border: 30px solid black;
+   border-radius: 45%;
+   overflow: hidden;
+}
+
+.impostor .glass-bowl .rflection-one {
+   position: absolute;
+   right: 0;
+   width: 99%;
+   height: 70px;
+   background-color: lightblue;
+   border-radius: 88% 53% 136% 227%/121% 160% 85% 233%;
+   transform: rotate(-3deg);
+}
+
+.impostor .glass-bowl .rflection-two {
+   position: absolute;
+   top: 90px;
+   right: 0;
+   width: 289%;
+   height: 70px;
+   background-color: lightblue;
+   border-radius: 79% 222% 320% 146%/402% 24% 59% 178%;
+   transform: rotate(-3deg);
 }
