@@ -2,18 +2,18 @@ body{
    display: flex;
    justify-content: center;
    align-items:center;
-   height: 100vh;
+   height: 1000px;
 }
 
 .impostor{
    position: relative;
-   height:98vh;
+   height:80vh;
 }
 
 .impostor .body {
    position: relative;
-   width: 300px;
-   height: 420px;
+   width: 280px;
+   height: 300px;
    border-radius:35% 45% 0 0  ;
    border:30px solid black;
    overflow: hidden;
@@ -133,10 +133,44 @@ body{
 
 .impostor .floor-shaow{
    position: absolute;
+   transform: translateY(80px);
    width: 450px;
    height: 100px;
    background-color: #181616a1;
    bottom: -44px;
    left: -45px;
    border-radius: 50%;
+}
+
+
+
+.hat {
+   position: relative;
+   width: 100px;
+   height: 100px;
+   left: 200px;
+}
+
+.hat-top {
+   position: absolute;
+   transform: translate(-100px, -66px);
+   top: 0;
+   left: 0;
+   right: 0;
+   height: 134px;
+   width: 200px;
+   background-color: black;
+   border-radius: 50% 50% 0 0;
+}
+
+.hat-bottom {
+   position: absolute;
+   bottom: 0;
+   left: -107px;
+   right: 61px;
+   height: 50px;
+   background-color: black;
+   width: 260px;
+   border-radius: 50%;
+   transform: rotate(0deg);
 }
